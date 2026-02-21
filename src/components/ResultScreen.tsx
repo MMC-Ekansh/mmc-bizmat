@@ -28,7 +28,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ score, user, userAnswers, o
         });
 
         // 2. PASTE YOUR GOOGLE SCRIPT URL HERE
-        const scriptUrl = 'PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE';
+        const scriptUrl = 'https://script.google.com/macros/s/AKfycbxq8gIBTPV2w_gkz2BlPz7mvYsmfyDa-ajbOebRDZEGqd35rqi0xoUA9pDzgLuDZ8Hd/exec';
         
         await fetch(scriptUrl, {
           method: 'POST',
